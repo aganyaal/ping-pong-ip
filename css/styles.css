@@ -1,35 +1,58 @@
 @font-face {
-  font-family: angry;
-  src: url("../angrybirds-regular.ttf");
+    font-family: angry;
+    src: url("../angrybirds-regular.ttf");
 }
-body{
-  background-image: url('../images/ping.gif');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  /*background-image: url("../background/download.jpg");
+
+.bod {
+    background-image: url('../images/ping.gif');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /*background-image: url("../background/download.jpg");
   background-size: cover;
   background-color: rgba(255, 255, 255, 0.6);
   background-blend-mode: lighten;*/
+    height: 100%;
+    width: 100%;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.head {
+    background-color: maroon;
+    color: white;
+    font-family: 'Courgette', cursive;
+    text-align: center;
+    text-decoration: overline;
+}
+
+.heading {
+    font-size: 200%;
+}
+
+.instructions {
+    background-color: #80;
+    font-family: angry;
+    float: right;
+}
+
+.form2 {
+    text-align: center;
+}
+
+.e {
+  text-align: center;
+  border-width:thick;
+  border-color: black;
+  background-image: url('../images/ping2.gif');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
   height: 100%;
   width: 100%;
-  font-family: 'Libre Baskerville', serif;
-}
-.head{
-  background-color: maroon;
-  color: white;
   font-family: 'Courgette', cursive;
-  text-align: center;
-  text-decoration: overline;
 }
-.heading{
-font-size: 200%;
-}
-.instructions{
-  background-color:#96;
-  font-family: angry;
-  float: right;
-}
-.form1{
-  text-align: center;
+.r{
+font-weight: bold;
+  color:
 }
