@@ -32,7 +32,7 @@
 .instructions {
     background-color: #80;
     font-family: angry;
-    float: right;
+    text-align: center;
 }
 
 .form2 {
@@ -40,19 +40,20 @@
 }
 
 .e {
-  text-align: center;
-  border-width:thick;
-  border-color: black;
-  background-image: url('../images/ping2.gif');
-  background-size: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment:fixed;
-  height: 100%;
-  width: 100%;
-  font-family: 'Courgette', cursive;
+    text-align: center;
+    border-width: thick;
+    border-color: black;
+    background-image: url('../images/ping2.gif');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+    font-family: 'Courgette', cursive;
 }
-.r{
-font-weight: bold;
-  color:
+
+.r {
+    font-weight: bold;
+    text-align: center;
 }
