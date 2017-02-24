@@ -25,8 +25,9 @@ $(document).ready(function() {
         output.forEach(function(num) {
             $("ul#ul").append("<li>" + num + "</li>")
         });
-        $("div.hiding").hide();
+        $("form#form1").hide();
         $("div.bodii").fadeIn(1000).fadeOut(1000).delay(1000);
-        $("div.hiding").delay(1000).fadeIn(5000);
+        $("div#refresh").show();
+        $("ul#ul").delay(1000).fadeIn(5000);
     });
 });

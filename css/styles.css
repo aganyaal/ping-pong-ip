@@ -57,3 +57,6 @@
     font-weight: bold;
     text-align: center;
 }
+#refresh{
+  display: none;
+}
